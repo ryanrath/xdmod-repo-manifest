@@ -53,6 +53,7 @@ This is the module that encapsulates the functionality developed for XSEDE
       name="xdmod-xsede"
       groups="xsede"
       >
+          <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
   </project>
   <!--
       Related Tools
