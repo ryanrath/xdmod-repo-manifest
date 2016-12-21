@@ -45,7 +45,15 @@ They will be installed by default.
       >
     <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
   </project>
-
+  <!--
+      XSEDE Module
+This is the module that encapsulates the functionality developed for XSEDE
+  -->
+  <project
+      name="xdmod-xsede"
+      groups="xsede"
+      >
+  </project>
   <!--
       Related Tools
 
