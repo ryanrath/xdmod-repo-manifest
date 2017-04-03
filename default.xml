@@ -5,15 +5,19 @@
       alias="upstream"
       fetch="ssh://git@github.com/ubccr"
       />
-  <remote
+ <!-- <remote
       name="ryanrath"
       alias="origin"
       fetch="ssh://git@github.com/ryanrath"
-      />
-
+      />-->
+ <remote
+     name="jsperhac"
+     alias="origin"
+     fetch="https://github.com/jsperhac"
+     />
   <default
-      remote="ryanrath"
-      revision="xdmod6.5"
+      remote="jsperhac"
+      revision="fix-framework-authorize-exceptions"
       />
 
   <!--
