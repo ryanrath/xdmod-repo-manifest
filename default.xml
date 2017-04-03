@@ -27,7 +27,7 @@ This is the main Open XDMoD repository. It will be installed by default.
   -->
   <project
       name="xdmod"
-      revision="acls"
+      revision="xdmod6.6"
       groups="xdmod"
       />
 
