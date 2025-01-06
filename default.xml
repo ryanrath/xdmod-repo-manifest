@@ -3,12 +3,7 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="https://github.com/ubccr"
-    />
-    <remote
-            name="github-ryanrath"
-            alias="ryanrath"
-            fetch="https://github.com/ryanrath"
+        fetch="ssh://github.com/ubccr"
     />
     <default
         remote="ubccr"
@@ -64,8 +59,6 @@
     <project
             name="xdmod-cloudbank"
             groups="cloudbank"
-            remote="github-ryanrath"
-            revision="initial-version"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
