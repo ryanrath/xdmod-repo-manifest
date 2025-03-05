@@ -23,6 +23,8 @@
     <project
         name="xdmod"
         groups="xdmod"
+        remote="github-ryanrath"
+        revision="etl_viewer_next"
     />
 
     <!--
