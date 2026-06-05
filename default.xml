@@ -72,8 +72,8 @@
     <project
             name="xdmod-cloudbank"
             groups="cloudbank"
-            remote="github-ryanrath"
-            revision="symfony_migration"
+            remote="ubccr"
+            revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
